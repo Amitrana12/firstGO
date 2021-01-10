@@ -1,4 +1,4 @@
-module github.com/mottet-dev/medium-go-colly-basics
+module github.com/Amitrana12/firstGO/amazon/medium-go-colly-basics
 
 go 1.12
 
