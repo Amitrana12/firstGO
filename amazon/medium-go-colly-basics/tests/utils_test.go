@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/mottet-dev/medium-go-colly-basics/utils"
+	"github.com/Amitrana12/firstGO/medium-go-colly-basics/utils"
 )
 
 func TestFormatPriceWithOnePrice(t *testing.T) {
