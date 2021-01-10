@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/gocolly/colly"
-	"github.com/mottet-dev/medium-go-colly-basics/utils"
+	"github.com/Amitrana/firstGO/amazon/medium-go-colly-basics/utils"
 )
 
 func main() {
