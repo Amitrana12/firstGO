@@ -1,5 +1,6 @@
 # firstGO
-The goal of this scraper will be to fetch an Amazon result page, loop through the different articles, parse the data we need, go to the next page, write the results in a CSV file and… repeat.
+hi 
+The goal  of this scraper API will be to fetch an Amazon result page, loop through the different articles, parse the data we need, go to the next page, write the results in a CSV file and… repeat.
 In order to do this, we’ll use a library called Colly. Colly is a scraping framework written in Go. It’s lightweight but offers a lot of functionalities out of the box such as parallel scraping, proxy switcher, etc.
 In Colly, you need first to implement a Collector. A Collector will give you access to some methods allowing you to trigger callback functions when a certain event happens. In order to implement a Collector
 The callback function passed to the ForEach method gives us access to each product one by one. From there, we can simply access the value we want with the CSS selectors we discovered in the first part
