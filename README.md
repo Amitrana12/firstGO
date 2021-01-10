@@ -10,4 +10,5 @@ We import the os package
 The OS package provides an interface to operating system functionality
 Inside the function body, let’s use MarshalIndent to marshal the data we pass in
 The MarshalIndent method returns the JSON encoding of data and also returns an error
+Some error handling. If we get an error here, we will just print a log message saying we were unable to create a JSON file
 Now if we go back to the terminal and run the command go run main.go, all our scraped rhino facts will be saved in a JSON file called productdetails.json
